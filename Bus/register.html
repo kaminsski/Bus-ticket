@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form onsubmit="event.preventDefault()">
+        <label for="isim">Isim Soyisim: </label>
+        <input id="isim" name="isim" type="text"><br>
+        <label for="mail">Mail: </label>
+        <input id="mail" name="mail" type="email"><br>
+        <label for="gender">Cinsiyet: </label>
+        <select name="gender" id="gender">
+            <option value="male">Erkek</option>
+            <option value="female">Kadin</option>
+        </select><br>
+        <button id="submit">Kaydi Tamamla</button>
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+</html>

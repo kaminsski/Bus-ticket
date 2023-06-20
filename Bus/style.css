@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   
+    background-color: rgba(156, 156, 152, 0.684);
+    margin: auto;
+}
+.bus{
+    background-image: url(/images/koltuk.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size:contain;
+    margin:0px 500px;
+    padding-top: 70px;
+
+   
+}
+.single,.double{
+    display: inline;
+    cursor: pointer;
+
+}
+.seat span:hover{
+    background-color: antiquewhite;
+   
+}
+.single span{
+    
+    margin-left: 30px;
+   
+    font-size: 35px;
+}
+.double span{
+    
+    
+   
+    font-size: 35px;
+}
+.double{
+    margin-left: 40px;
+}
+.available{
+    background-color: darkkhaki;
+}
+.female{
+    background-color: pink;
+}
+.male{
+    background-color: turquoise;
+}
+.text{
+    margin-left: 550px;
+    margin-top: 20px;
+}
